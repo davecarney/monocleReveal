@@ -18,15 +18,15 @@
 ```
 
 <div class="monocle-anchor">
-  <p>Hover over me to see more</p>
-  <div class="monocle-target">
-    <p>I am hidden content</p>
-    <a href="#">Some hidden link you don't want to accidentally press</a>
-    <div class="monocle-anchor">
-      <p>I too have hidden content</p>
-      <p class="monocle-target">I'm a two deep hidden element</p>
+    <p>Hover over me to see more</p>
+    <div class="monocle-target">
+        <p>I am hidden content</p>
+        <a href="#">Some hidden link you don't want to accidentally press</a>
+        <div class="monocle-anchor">
+            <p>I too have hidden content</p>
+            <p class="monocle-target">I'm a two deep hidden element</p>
+        </div>
     </div>
-   </div>
 </div>
 
 ```
