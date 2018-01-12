@@ -8,6 +8,8 @@
 * Available for use under the MIT License
 *
 * Functions as a class switcher
+* Assign --> .monocle-target { display: none; }
+*
 * Instead of using pseudo-classes --> some_element:hover { display: whatever; }
 * Use --> .monocle-reveal, .monocle-active { display: whatever; }
 *

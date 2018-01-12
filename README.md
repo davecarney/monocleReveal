@@ -35,9 +35,15 @@
 
 * Link to the plugin in your website or copy/paste the function into your scripts file.
 
+* Assign .monocle-target { display: none; }
+
 * Style the classes ".monocle-reveal, .monocle-active" (Both of them) instead of using :hover pseudo-classes.
 
 ```
+
+.monocle-target {
+    display: none;
+}
 
 .monocle-reveal,
 .monocle-active {
