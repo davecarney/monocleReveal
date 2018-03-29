@@ -1,5 +1,5 @@
 /*
-* monocleReveal() 1.0
+* monocleReveal() 1.1
 *
 * Copyright 2017
 *
@@ -17,7 +17,8 @@
 * Must place .monocle-target on the element you want hidden/revealed
 */
 
-(function ( $ ) {
+jQuery(document).ready(function($) {
+
 	$.fn.monocleReveal = function() {
 		this.each(function() {
 
@@ -87,7 +88,8 @@
 		});
 		return this;
 	};
-}( jQuery ));
 
 $('.monocle-anchor').monocleReveal();
+
+});
 
