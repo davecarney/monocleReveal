@@ -1,6 +1,9 @@
-# MonocleReveal #
+# MonocleReveal v2.0 #
 
 ## Hover functionality for Touchscreens ##
+
+* v 2.0 moves "active" flags to memory instead of writing to the DOM
+* 253% faster then old script
 
 ### When you need this. ###
 
@@ -37,7 +40,8 @@
 
 * Assign .monocle-target { display: none; }
 
-* Style the classes ".monocle-reveal, .monocle-active" (Both of them) instead of using :hover pseudo-classes.
+* instead of using .example_element:hover { display: whatever; } pseudo-classes.
+* use .example_element > .monocle-active { display: whatever; }
 
 ```
 
@@ -45,8 +49,7 @@
     display: none;
 }
 
-.monocle-reveal,
-.monocle-active {
+.example_element > .monocle-active {
     display: whatever;
 }
 
